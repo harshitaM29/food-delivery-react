@@ -1,0 +1,37 @@
+.tabOptions {
+    box-shadow: rgb(232,232,232) 0px -0.5px 0px inset;
+}
+.options {
+    display: flex;
+}
+.tabItem {
+    margin-right: 24px;
+    padding: 12px 12px 20px 12px;
+}
+.tabName {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    color:#696969
+}
+.tabImageContainer {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #f8f8f8;
+
+}
+
+.tabImage {
+    height: 30px;
+    width: 30px;
+
+}
+
+.activeTab {
+    border-bottom: 2px solid #ff7e8b;
+}
+
+.activeTab .tabName {
+    color: #ff7e8b;
+}

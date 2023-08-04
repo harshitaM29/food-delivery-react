@@ -1,0 +1,89 @@
+.header{
+    width:100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.headerLogo {
+    height:27px;
+    max-width: 140px;
+    margin-right: 24px;
+}
+.headerRight{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+
+
+}
+.locationSearch {
+    height: 54px;
+    display:flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: rgb(28 28 28 /8%) 0px 2px 8px;
+    border:1px solid rgb(232, 232, 232);
+    width: 70%;
+    background-color: rgb(255,255,255);
+}
+
+.location {
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.locationIcon {
+    display: flex;
+    color:#828282;
+
+}
+.icon {
+    color:#ff7e8b;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.separator {
+    height: 20px;
+    border:0.5px solid rgb(207,207,207)
+}
+
+.searchBar {
+   display: flex;
+
+    flex:2;
+}
+.searchIcon {
+    font-size: 20px;
+    color:#828282;
+    margin: 0px 12px;
+}
+.searchInput {
+    border: none;
+    outline: none;
+    width: 60%;
+    font-size: 14px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    width: 14%;
+    align-items: center;
+}
+.profileIcon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.profileName {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.down {
+    font-size: 20px;
+}
