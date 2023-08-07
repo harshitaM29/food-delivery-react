@@ -3,6 +3,8 @@ import classes from './Delivery.module.css';
 import Filter from '../Common/Filter';
 import { FaFilter } from 'react-icons/fa'
 import DeliveryCollections from './DeliveryCollection';
+import ExploreSection from '../Common/Explore/ExploreSection';
+import { resData } from '../../data';
 const deliveryFilters = [
     {
         id:1,
@@ -32,12 +34,14 @@ const deliveryFilters = [
     }
 ]
 const Delivery = () => {
+    const resList = resData;
     return (
         <Fragment>
           <div className="max-width">
             <Filter filterList={deliveryFilters}/>
           </div>
           <DeliveryCollections />
+          <ExploreSection list={resList} collectionName="Delivery Restaurants"/>
         </Fragment>
     )
 };
