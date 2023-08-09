@@ -1,0 +1,159 @@
+.exploreCard {
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border:1px solid transparent;
+
+
+}
+.exploreCardCover {
+    height: 248px;
+    width:328px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.exploreCardImage {
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+.deliveryTime {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0.8;
+    background-color: white;
+    backdrop-filter: blur(4px);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 2px 5px 3px;
+    border-radius: 4px;
+}
+
+.proOff {
+    position: absolute;
+    left: 0px;
+    bottom: 40px;
+    background-color:#D92662;
+    color:white;
+    font-size: 14px;
+    padding: 0px 6px;
+    border-radius: 0px 2px 2px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    line-height: 18px;
+    font-weight: 500;
+}
+    
+
+.discount {
+    position: absolute;
+    left: 0px;
+    bottom: 14px;
+    background-color:#256FEF;
+    color:white;
+    font-size: 14px;
+    padding: 0px 6px;
+    border-radius: 0px 2px 2px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    line-height: 18px;
+    font-weight: 500;
+}
+.goldOffer {
+    position: absolute;
+    left: 0px;
+    bottom: 14px;
+    background-color:#267E3E;
+    color:white;
+    font-size: 14px;
+    padding: 0px 6px;
+    border-radius: 0px 2px 2px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    line-height: 18px;
+    font-weight: 500; 
+}
+
+.resRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px 6px;
+}
+
+.name {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+
+}
+
+.rating {
+    padding: 0px 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    background-color: #267E3E;
+    border-radius: 6px;
+    height: 24px;
+}
+
+.icon {
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+.cuisine {
+    max-width: 56%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.resCus {
+    margin-right: 4px;
+    color: #696969;
+}
+
+.approxPrice {
+    font-size: 14px;
+    color: #696969;
+}
+
+.exploreBottom {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.resButton{
+    font-size: 12px;
+    color:#696969;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 8px;
+}
+
+.cardSeparator{
+    height: 1px;
+    margin: 12px 0px 5px;
+    background-color:  rgb(232, 232, 232);
+}
+
+.exploreCard:hover{
+    background-color: white;
+    border: 1px solid rgb(212, 208, 208);
+}

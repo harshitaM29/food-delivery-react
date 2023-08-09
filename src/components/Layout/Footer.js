@@ -1,7 +1,7 @@
 
 const Footer = () => {
     return (
-        <div>Made By....</div>
+        <div className="absolute-center">Made By....</div>
     )
     
 };
