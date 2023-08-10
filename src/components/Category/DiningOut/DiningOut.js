@@ -1,10 +1,9 @@
 import { Fragment } from 'react';
-import classes from './DiningOut.module.css';
-import Collections from '../Common/Collections/Collections';
+import Collections from '../../Common/Collections/Collections';
 import {FaFilter, FaCrown} from 'react-icons/fa';
-import Filter from '../Common/Filter';
-import { diningout } from '../../data/diningout';
-import ExploreSection from '../Common/Explore/ExploreSection';
+import Filter from '../../Common/Filter/Filter';
+import { diningout } from '../../../data/diningout';
+import ExploreSection from '../../Common/Explore/ExploreSection';
 const collectionList = [
     {
         id: "1",

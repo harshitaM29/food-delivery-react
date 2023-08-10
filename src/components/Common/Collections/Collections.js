@@ -1,8 +1,8 @@
 import Slider from 'react-slick';
 import classes from './Collections.module.css';
 import { FaCaretRight } from 'react-icons/fa';
-import CarouselNext from '../CarouselNext';
-import CarouselPrev from '../CarouselPrev';
+import CarouselNext from '../Carousel/CarouselNext';
+import CarouselPrev from '../Carousel/CarouselPrev';
 
 const settings = {
     infinite: false,

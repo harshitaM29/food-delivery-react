@@ -1,6 +1,6 @@
 import Slider from 'react-slick';
-import CarouselNext from '../Common/CarouselNext';
-import CarouselPrev from '../Common/CarouselPrev';
+import CarouselNext from '../../Common/Carousel/CarouselNext';
+import CarouselPrev from '../../Common/Carousel/CarouselPrev';
 import classes from './DeliveryCollections.module.css';
 import DeliveryItem from './DeliveryItem';
 

@@ -1,10 +1,9 @@
 import { Fragment } from 'react';
-import classes from './NightLife.module.css';
 import {FaFilter, FaCrown} from 'react-icons/fa';
-import Collections from '../Common/Collections/Collections';
-import Filter from '../Common/Filter';
-import {nightlife} from '../../data/nightlife'
-import ExploreSection from '../Common/Explore/ExploreSection';
+import Collections from '../../Common/Collections/Collections';
+import Filter from '../../Common/Filter/Filter';
+import {nightlife} from '../../../data/nightlife'
+import ExploreSection from '../../Common/Explore/ExploreSection';
 const collectionList = [
     {
         id: "1",

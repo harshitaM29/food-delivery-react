@@ -1,10 +1,9 @@
 import { Fragment } from 'react';
-import classes from './Delivery.module.css';
-import Filter from '../Common/Filter';
+import Filter from '../../Common/Filter/Filter';
 import { FaFilter } from 'react-icons/fa'
 import DeliveryCollections from './DeliveryCollection';
-import ExploreSection from '../Common/Explore/ExploreSection';
-import { resData } from '../../data/data';
+import ExploreSection from '../../Common/Explore/ExploreSection';
+import { resData } from '../../../data/data';
 const deliveryFilters = [
     {
         id:1,
